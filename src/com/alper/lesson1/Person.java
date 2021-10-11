@@ -1,12 +1,21 @@
 package com.alper.lesson1;
 
 public class Person {
-	float height;
-	float weight;
+	private float height;
+	private float weight;
 	
+	//Getters n setters
+	public float getHeight() {
+		return height;
+	}
+
+	public void setHeight(float height) {
+		this.height = height;
+	}
+
 	//constructor
 	public Person() {
-		this.height =170;
+		this.setHeight(170);
 		this.weight =65;
 	}
 	
