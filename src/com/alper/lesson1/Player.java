@@ -3,14 +3,17 @@ package com.alper.lesson1;
 public class Player {
 	
 	public static void main(String[] args) {
-		int strength = 10;
+		int year = 2021;
 		
-		System.out.println("Hello World! " + strength);
-		Person tom = new Person();
+		System.out.println("Hello World! It's " + year);
+		Person tom = new Person("Maxy", 70);
 		tom.walks();
 		tom.walks();
 		tom.walks();
 		tom.setHeight(175);
+		
+		
+		
 	}
 		
 
