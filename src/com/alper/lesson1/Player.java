@@ -6,7 +6,7 @@ public class Player {
 		int year = 2021;
 		
 		System.out.println("Hello World! It's " + year);
-		Person tom = new Person("Maxy", 70);
+		Person tom = new Person("Maxy", 70, 174.2f);
 		tom.walks();
 		tom.walks();
 		tom.walks();
